@@ -1,4 +1,3 @@
-pip install pyodbc
 
 import pyodbc
 import pandas as pd
