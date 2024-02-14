@@ -361,11 +361,11 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 ### type
 Return the type of the data:
 ```python
-#input
+# input
 x = 10
 print(type(x))
 
-#output
+# output
 <class 'int'>
 ```
 
@@ -377,12 +377,12 @@ print(type(x))
 Return a range from the data:
 ```python
 # Example 1
-#input
+# input
 x = range(3)
 for n in x:
   print(n)
 
-#output
+# output
 0
 1
 2
@@ -393,18 +393,18 @@ x = range(3, 6)
 for n in x:
   print(n)
 
-#output
+# output
 3
 4
 5
 
 # Example 3
-#input
+# input
 x = remge(3,8,2)
 for n in x:
   print(n)
 
-#output
+# output
 3
 5
 7
@@ -474,7 +474,13 @@ y
 ### isalnum
 Return if the string is alphanumeric or not:
 ```python
-isalnum()
+# input
+txt = "Company12"
+x = txt.isalnum()
+print(x)
+
+# output
+True
 ```
 
 ###### [⏪](README.md#Index)
@@ -482,9 +488,15 @@ isalnum()
   </p>
 
 ### capitalize
-Return the string in a Capitalize mode:
+Returns a string where the first character is upper case:
 ```python
-capitalize()
+# input
+txt = "hello, and welcome to my world."
+x = txt.capitalize()
+print (x)
+
+# output
+Hello, and welcome to my wolrd."
 ```
 
 ###### [⏪](README.md#Index)
@@ -492,9 +504,15 @@ capitalize()
   </p>  
 
 ### string.find
-Return a specific value in the string:
+Return the first occurrence of the specified value:
 ```python
+# input
+txt = "Hello, welcome to my world."
+x = txt.find("welcome")
+print(x)
 
+# output
+7
 ```
 
 ###### [⏪](README.md#Index)
@@ -504,7 +522,13 @@ Return a specific value in the string:
 ### string.center
 Return the string in a center between the specific number of strings:
 ```python
-string.center()
+# imput
+txt = "banana"
+x = txt.center(20)
+print(x)
+
+# output
+       banana       
 ```
 
 ###### [⏪](README.md#Index)
@@ -515,7 +539,13 @@ string.center()
 ### list.append
 Add value in a list:
 ```python
+# input
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+print(fruits)
 
+# output
+['apple', 'banana', 'cherry', 'orange']
 ```
 
 ###### [⏪](README.md#Index)
@@ -525,7 +555,23 @@ Add value in a list:
 ### list.sort
 Return the values in a specific order:
 ```python
+# Example 1
+# imput
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort()
+print(cars)
 
+# output
+['BMW', 'Ford', 'Volvo']
+
+# Example 2
+# input
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort(reverse=True)
+print(cars)
+
+# output
+['Volvo', 'Ford', 'BMW']
 ```
 
 ###### [⏪](README.md#Index)
