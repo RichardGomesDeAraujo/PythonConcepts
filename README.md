@@ -42,6 +42,22 @@
 - [**Desenvolvimento APP**](README.md#Desenvolvimento-APP)
 - [**Desenvolvimento Games**](README.md#Desenvolvimento-Games)
 
+# Python Commands:
+- [**terminal**](README.md#terminal)
+- [**type**](README.md#type)
+- [**range**](README.md#range)
+- [**input**](README.md#input)
+- [**len**](README.md#len)
+- [**loop**](README.md#loop)
+## String Commands
+- [**isalnum**](README.md#isalnum)
+- [**capitalize**](README.md#capitalize)
+- [**string.find**](README.md#string.find)
+- [**string.center**](README.md#string.center)
+## List Commnands
+- [**list.append**](README.md#list.append)
+- [**list.sort**](README.md#list.sort)
+  
 ---
 
 ### Operadores Numéricos
@@ -324,3 +340,129 @@ Cocos2d
 <p>  <br>
   </p>
 
+# Python Commands
+### terminal
+Commands used in terminal:
+```python
+python -m venv venv
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>
+
+### type
+Return the type of the data:
+```python
+type(data)
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>  
+
+### range
+Return a range from the data:
+```python
+
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>  
+
+### input
+Command to input some value in the code:
+```python
+input("The Value is:  ")
+
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>  
+
+### len
+Show the length of the string:
+```python
+len()
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>  
+
+### loop
+Commnand used to create a loop in the code:
+```python
+python -m venv venv
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>
+
+## String Commands
+### isalnum
+Return if the string is alphanumeric or not:
+```python
+isalnum()
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>
+
+### capitalize
+Return the string in a Capitalize mode:
+```python
+capitalize()
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>  
+
+### string.find
+Return a specific value in the string:
+```python
+
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>
+
+### string.center
+Return the string in a center between the specific number of strings:
+```python
+string.center()
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>  
+
+## List Commands
+### list.append
+Add value in a list:
+```python
+
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>
+
+### list.sort
+Return the values in a specific order:
+```python
+
+```
+
+###### [⏪](README.md#Index)
+<p>  <br>
+  </p>  
+  
+
+  
