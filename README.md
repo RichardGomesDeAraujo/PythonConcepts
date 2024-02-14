@@ -344,7 +344,14 @@ Cocos2d
 ### terminal
 Commands used in terminal:
 ```python
+# create a virtual machine
 python -m venv venv
+
+# Activate the virtual machine
+.\venv\Scripts\activate
+
+# to execute scripts
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
 
 ###### [⏪](README.md#Index)
@@ -354,7 +361,12 @@ python -m venv venv
 ### type
 Return the type of the data:
 ```python
-type(data)
+#input
+x = 10
+print(type(x))
+
+#output
+<class 'int'>
 ```
 
 ###### [⏪](README.md#Index)
@@ -364,7 +376,38 @@ type(data)
 ### range
 Return a range from the data:
 ```python
+# Example 1
+#input
+x = range(3)
+for n in x:
+  print(n)
 
+#output
+0
+1
+2
+
+# Example 2
+# input
+x = range(3, 6)
+for n in x:
+  print(n)
+
+#output
+3
+4
+5
+
+# Example 3
+#input
+x = remge(3,8,2)
+for n in x:
+  print(n)
+
+#output
+3
+5
+7
 ```
 
 ###### [⏪](README.md#Index)
@@ -374,7 +417,9 @@ Return a range from the data:
 ### input
 Command to input some value in the code:
 ```python
-input("The Value is:  ")
+print("Enter your name: ")
+x = input()
+print("Hello, " + x)
 
 ```
 
@@ -385,7 +430,8 @@ input("The Value is:  ")
 ### len
 Show the length of the string:
 ```python
-len()
+fruits = ["apple", "banana", "cherry"]
+print(len(fruits))
 ```
 
 ###### [⏪](README.md#Index)
@@ -395,7 +441,29 @@ len()
 ### loop
 Commnand used to create a loop in the code:
 ```python
-python -m venv venv
+# Example 1
+# loop in a list
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+ # output
+apple
+banana
+cherry
+
+# Example 2
+# loop through a string
+for x in "cherry"
+ print(x)
+
+# output
+c
+h
+e
+r
+r
+y
+
 ```
 
 ###### [⏪](README.md#Index)
