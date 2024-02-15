@@ -52,11 +52,11 @@
 ## String Commands
 - [**isalnum**](README.md#isalnum)
 - [**capitalize**](README.md#capitalize)
-- [**string.find**](README.md#string.find)
-- [**string.center**](README.md#string.center)
+- [**string find**](README.md#string-find)
+- [**string center**](README.md#string-center)
 ## List Commnands
-- [**list.append**](README.md#list.append)
-- [**list.sort**](README.md#list.sort)
+- [**list append**](README.md#list-append)
+- [**list sort**](README.md#list-sort)
   
 ---
 
@@ -503,7 +503,7 @@ Hello, and welcome to my wolrd."
 <p>  <br>
   </p>  
 
-### string.find
+### string find
 Return the first occurrence of the specified value:
 ```python
 # input
@@ -519,7 +519,7 @@ print(x)
 <p>  <br>
   </p>
 
-### string.center
+### string center
 Return the string in a center between the specific number of strings:
 ```python
 # imput
@@ -536,7 +536,7 @@ print(x)
   </p>  
 
 ## List Commands
-### list.append
+### list append
 Add value in a list:
 ```python
 # input
@@ -552,7 +552,7 @@ print(fruits)
 <p>  <br>
   </p>
 
-### list.sort
+### list sort
 Return the values in a specific order:
 ```python
 # Example 1
