@@ -1,7 +1,5 @@
 <img src="HOD.png" align="Center" alt="Hands On Data" style="height: 180px; width:260px;"/>
 
-<p>  <br>
-  </p>
   
 # Concepts, Application Fields and Libraries
 
