@@ -1,4 +1,4 @@
-<img src="HandsOnData.png" align="Center" alt="Hands On Data" style="height: 200px; width:260px;"/>
+<img src="HOD.png" align="Center" alt="Hands On Data" style="height: 200px; width:260px;"/>
 
 <p>  <br>
   </p>
